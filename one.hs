@@ -1,4 +1,4 @@
 myLast :: [a] -> a
-myLast [] = error "Empty List"
+myLast [] = error 'Empty List'
 myLast [x] = x
-myLast (_:xs) = myLast xs
+myLast [x:xs] = myLast xs
